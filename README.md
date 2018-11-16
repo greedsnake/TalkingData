@@ -7,7 +7,9 @@ TalkingData透過其收集手機APP的使用行為，結合不同的手機裝置
 
 
 ## 資料格式
-TalkingData將不同類型的資料儲存在不同的csv檔案中
+當有用戶執行了包含TalkingData SDK的應用程式時，TalkingData就將其記錄為一事件(event)，並透過其獲取使用者的年齡性別、使用時間地點、使用的手機型號、開啟及安裝的程式等資料，並在內部有各APP的分類表   
+![image](imgs/TalkingData_process.jpg)    
+TalkingData將不同類型的資料分別儲存在不同的csv檔案中
 
 |檔案名稱|檔案內容|
 |---------|--|

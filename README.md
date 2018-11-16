@@ -2,7 +2,7 @@
 ## 題目介紹
 TalkingData是中國最大的行動數據服務平台，每天處理超過10TB 行動數據。
 本研究為Kaggle競賽，目的是藉由行動裝置的使用行為預測使用者的特徵，藉此提供用戶喜好的服務。   
-(https://www.kaggle.com/c/talkingdata-mobile-user-demographics)
+(https://www.kaggle.com/c/talkingdata-mobile-user-demographics)   
 TalkingData透過其收集手機APP的使用行為，結合不同的手機裝置、型號以及不同所在位置，判別手機使用者的年齡、性別。
 
 

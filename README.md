@@ -7,7 +7,7 @@ TalkingData透過其收集手機APP的使用行為，結合不同的手機裝置
 
 
 ## 資料格式
-當有用戶執行了包含TalkingData SDK的應用程式時，TalkingData就將其記錄為一事件(event)，並透過其獲取使用者的年齡性別、使用時間地點、使用的手機型號、開啟及安裝的程式等資料，並在內部有各APP的分類表   
+當有用戶執行了包含TalkingData SDK的應用程式時，TalkingData就將其記錄為一事件(event)，並透過其獲取使用者的年齡性別、使用時間地點、使用的手機型號、開啟及安裝的程式等資料，並在內部有各APP的分類表。   
 ![image](imgs/TalkingData_process.jpg)    
 TalkingData將不同類型的資料分別儲存在不同的csv檔案中
 
@@ -24,9 +24,9 @@ TalkingData將不同類型的資料分別儲存在不同的csv檔案中
 ![image](imgs/TalkingData_relation.jpg)  
 
 ## 分析流程
- - 對各資料檔案進行刪除重複值及填補空值的動作
- - 透過primary key，將部分表格合併
- - 將品牌型號、APP安裝狀態、APP類型等欄位攤平，整併成一稀疏矩陣   
+ - 對各資料檔案進行刪除重複值及填補空值的動作。
+ - 透過primary key，將部分表格合併。
+ - 將品牌型號、APP安裝狀態、APP類型等欄位攤平，整併成一稀疏矩陣。   
 
 | 裝置ID | 品牌-小米 |品牌-HTC|...|APP_1|APP_2|...|遊戲|文學|金融|...|
 |--|--|--|--|--|--|--|--|--|--|--|

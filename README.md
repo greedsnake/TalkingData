@@ -17,5 +17,6 @@ TalkingData將不同類型的資料儲存在不同的csv檔案中
 |app_events.csv|相關APP的安裝、執行狀態|
 |app_labels.csv|APP ID與類別ID對照表|
 |label_categories.csv|類別ID與類別名稱對照表|
+
 利用彼此共通的primary key可將各檔案串接   
 ![image](imgs/TalkingData_relation.jpg)  

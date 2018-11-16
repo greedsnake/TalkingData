@@ -24,6 +24,8 @@ TalkingData將不同類型的資料分別儲存在不同的csv檔案中
 ![image](imgs/TalkingData_relation.jpg)  
 
 ## 分析流程
+ - 將phone_brnad_device_model.csv中的資料進行簡繁體轉換。
+ - 透過資料探索及視覺化方式進行初步欄位選擇。
  - 對各資料檔案進行刪除重複值及填補空值的動作。
  - 透過primary key，將部分表格合併。
  - 將品牌型號、APP安裝狀態、APP類型等欄位攤平，合併成一稀疏矩陣。   
